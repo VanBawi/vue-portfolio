@@ -1,9 +1,18 @@
 <template>
 	<div>
-		<footer class="site-footer">
+		<footer class="site-footer ">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="">
+						<nav class="footer-nav clearfix">
+							<ul class="footer-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="blog.html">Blog Posts</a></li>
+								<li><a href="archives.html">Shortcodes Shortcodes</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
 						<nav class="footer-nav clearfix">
 							<ul class="footer-menu">
 								<li><a href="index.html">Home</a></li>
@@ -17,7 +26,7 @@
 				</div>
 				<!-- /.row -->
 				<div class="row">
-					<div class="col-md-12">
+					<div class="">
 						<p class="copyright-text">Copyright &copy; 2084 Company Name | Design: templatemo</p>
 					</div>
 				</div>
@@ -33,7 +42,7 @@ export default {};
 <style lang="scss" scoped>
 .site-footer {
 	background-color: #f1f4f5;
-	padding: 100px 0;
+	padding: 40px 0;
 	color: #aaaaaa;
 	font-family: 'Raleway', sans-serif;
 }

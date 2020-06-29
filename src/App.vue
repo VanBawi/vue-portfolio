@@ -3,7 +3,8 @@
 		<header-nav></header-nav>
 		<!-- <store-list></store-list> -->
 		<body-content></body-content>
-		<!-- <footer-content></footer-content> -->
+		<contact-list></contact-list>
+		<footer-content></footer-content>
 	</div>
 </template>
 
@@ -13,6 +14,7 @@ import Footer from './components/Footer';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import BodyContent from './components/BodyContent';
+import Contact from './components/Contact';
 import Store from './components/Store';
 
 export default {
@@ -23,6 +25,7 @@ export default {
 		'sign-up': SignUp,
 		'body-content': BodyContent,
 		'store-list': Store,
+		'contact-list': Contact,
 	},
 	name: 'app',
 	data() {

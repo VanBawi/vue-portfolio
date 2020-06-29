@@ -10,7 +10,7 @@
 									<li class="active"><a href="index.html">Home</a></li>
 									<li><a href="#">Portfolio</a></li>
 									<li><a href="#">Blog</a></li>
-									<li><a href="archives.html">Archives</a></li>
+									<!-- <li><a href="archives.html">Archives</a></li> -->
 									<li><a href="contact.html">Contact</a></li>
 									<h3>Jecko</h3>
 								</ul>
@@ -27,11 +27,11 @@
 				<div class="container home-intro-content">
 					<div class="row">
 						<div class="col-md-12">
-							<h2>How coding has changed the world for the better</h2>
+							<h1>coding changed the world</h1>
 							<div class="parallax-text col-md-auto">
 								<p class="text-post">
-									Who says you can’t change the world? History has repeatedly shown that whatever
-									isn’t possible today can be possible tomorrow.
+									" Who says you can’t change the world? History has repeatedly shown that whatever
+									isn’t possible today can be possible tomorrow."
 								</p>
 								<button class=" btn button btn-lg btn-outline-danger">Want's Next?</button>
 							</div>
@@ -48,6 +48,19 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+h1 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	font-size: 4rem;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.3em;
+}
 body {
 	background: white;
 	font-size: 16px;
@@ -69,23 +82,19 @@ body {
 }
 .first-widget {
 	position: relative;
-	margin-top: 61px;
-	height: 650px;
-	margin-bottom: 4rem;
 }
 
 /*------------------------------------------------------
 	HEADER STYLES
 --------------------------------------------------------*/
 .site-header {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
 	width: 100%;
 	background: #f9f9f9;
-	z-index: 9999;
+	z-index: 2;
 	padding: 10px 0;
-	margin-bottom: 30px;
 	overflow: visible;
 	transition: padding 0.3s ease-in-out;
 	-moz-transition: padding 0.3s ease-in-out;
@@ -134,11 +143,12 @@ body {
 }
 
 #homeIntro {
-	background-image: url('../assets/images/wallpaper1.jpg');
+	background-image: url('../assets/images/computer-top-view.jpg');
+	height: 890px;
 }
 
 .button {
-	justify-self: start;
+	justify-self: center;
 }
 
 .parallax {
@@ -146,12 +156,14 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	color: #fff;
+	color: #2980b9;
 	overflow: hidden;
 }
 
 .parallax-overlay {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(207, 207, 207, 0.1);
+
+	height: 890px;
 }
 .parallax-text {
 	width: 40%;
@@ -160,12 +172,16 @@ body {
 }
 
 .text-post {
-	background-color: lightgrey;
+	background-color: rgb(231, 208, 0);
+	background: linear-gradient(200deg, rgb(228, 209, 44) 95%, transparent 10%);
+	color: rgb(132, 15, 228);
 	margin: 0 auto;
-	padding: 15px;
-	opacity: 0.4;
-	font-weight: 600;
-	box-shadow: 0 0 1px gray;
+	font-style: italic;
+	padding: 30px;
+	opacity: 0.9;
+	font-size: 200%;
+	font-weight: 700;
+	// box-shadow: 0 0 1px gray;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
@@ -175,35 +191,14 @@ body {
 	-moz-transition: padding 0.5s ease-in-out;
 	-webkit-transition: padding 0.5s ease-in-out;
 }
-.text-post {
-	color: #000;
-}
 
-.pageTitle {
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
-
-.page-title {
-	color: white;
-	margin: 5px 0 0 0;
-	font-size: 30px;
-	font-weight: 800;
-}
-
-.page-title {
-	color: white;
-	margin: 5px 0 0 0;
-	font-size: 30px;
-	font-weight: 800;
-}
 .home-intro-content {
 	padding: 11em 0;
 	text-align: center;
 }
 .home-intro-content h2 {
 	font-size: 36px;
-	font-weight: 800;
+	font-weight: 600;
 	color: white;
 }
 .home-intro-content p {
@@ -211,22 +206,28 @@ body {
 	font-size: 18px;
 	line-height: 32px;
 }
+
 @media (max-width: 991px) {
-	.site-header {
-		padding: 17px 0;
-		position: relative !important;
-	}
 	.first-widget {
-		margin-top: -30px;
-		height: 60vh;
+		position: relative;
+		height: auto;
 	}
-}
-@media (max-width: 767px) {
-	.parallax {
-		background-position: center center !important;
+	h1 {
+		font-size: 3rem;
 	}
 	.parallax-text {
 		width: 100%;
+		display: grid;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 767px) {
+	h1 {
+		font-size: 3rem;
+	}
+	.first-widget {
+		position: relative;
+		height: 850px;
 	}
 	.cta .cta-title {
 		display: block;

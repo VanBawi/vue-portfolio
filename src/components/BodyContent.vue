@@ -1,61 +1,68 @@
 <template>
 	<div>
-		<!-- /#homeIntro -->
-		<section class="light-content services">
-			<div class="container">
+		<!-- start service -->
+		<section id="service">
+			<div class="service-width">
 				<div class="row">
-					<div class="col-md-4 col-sm-4">
-						<div class="service-box-wrap">
-							<div class="service-icon-wrap">
-								<i class="fa fa-umbrella fa-2x"></i>
-							</div>
-							<div class="service-cnt-wrap">
-								<h3 class="service-title">Easy Theme Colors</h3>
-								<p>There are 4 color themes (blue, green, red, orange) and this one is blue.</p>
-							</div>
-						</div>
+					<div class="col-md-12 text-center wow bounceIn">
+						<h2>Tips & Tricks <i class="far fa-lightbulb"></i></h2>
+						<hr class="line" />
+						<h4>we specialize in web and mobile</h4>
 					</div>
-					<!-- /.col-md-4 -->
-					<div class="col-md-7 col-sm-7">
-						<div class="service-box-wrap">
-							<div class="service-icon-wrap">
-								<i class="fa fa-pencil-square-o fa-2x"></i>
+					<div class="col-md-6 col-sm-6">
+						<div class="media">
+							<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
+								<i class="far fa-keyboard"></i>
 							</div>
-							<!-- /.service-icon-wrap -->
-							<div class="service-cnt-wrap">
-								<h3 class="service-title">Pixel Perfect Design</h3>
-								<p>Based on a 12 column grid system, with every pixel snapped.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4 col-sm-4">
-						<div class="service-box-wrap">
-							<div class="service-icon-wrap">
-								<i class="fa fa-code fa-2x"></i>
-							</div>
-							<!-- /.service-icon-wrap -->
-							<div class="service-cnt-wrap">
-								<h3 class="service-title">Valid HTML5</h3>
-								<p>We offer validated html files and well commented code on our themes.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-7 col-sm-7">
-						<div class="service-box-wrap">
-							<div class="service-icon-wrap">
-								<i class="fa fa-suitcase fa-2x"></i>
-							</div>
-							<!-- /.service-icon-wrap -->
-							<div class="service-cnt-wrap">
-								<h3 class="service-title">Special Thanks</h3>
+							<div class="media-body">
+								<h3 class="media-heading">Write down the Steps</h3>
 								<p>
+									Workforce HTML CSS Template is a mobile friendly site design layout with animated
+									transitions. You can feel free to download and edit this for your sites.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="media">
+							<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
+								<i class="fas fa-fill-drip"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Implement the Codes</h3>
+								<p>
+									Please spread a word to your friends about templatemo site. It would be helpful.
 									Credit goes to
-									<a rel="nofollow" href="http://unsplash.com" target="_blank">Unsplash</a> for
-									images used in this template.
+									<a rel="nofollow noopener" href="https://pixabay.com">Pixabay</a> for images used
+									in this template.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="media">
+							<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
+								<i class="fas fa-laptop-code"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Style the Entire Web</h3>
+								<p>
+									This is a CSS layout with Bootstrap v3.3.4 kit. Lorem ipsum dolor sit amet,
+									consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="media">
+							<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
+								<i class="fas fa-rocket"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Deply to Firebase</h3>
+								<p>
+									This is a CSS layout with Bootstrap v3.3.4 kit. Lorem ipsum dolor sit amet,
+									consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
 								</p>
 							</div>
 						</div>
@@ -63,221 +70,220 @@
 				</div>
 			</div>
 		</section>
+		<!-- end service -->
+		<!-- row -->
 
-		<section class="testimonials-widget">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="bxslider">
-							<div class="testimonial">
-								<div class="testimonial-content">
-									<span class="testimonial-author">Andy Colin - Architect</span>
-									<p class="testimonial-description">
-										Thank you for all your good work in creating theme. They have a ‘presence’ which
-										feels right.
-									</p>
-								</div>
-							</div>
-							<div class="testimonial">
-								<div class="testimonial-content">
-									<span class="testimonial-author">Thomas Teddy - Design Writer</span>
-									<p class="testimonial-description">
-										I love the logo. Particularly how the mark can stand on its own. Nice work! It
-										feels tall and proud and powerful — and I love that. That’s what I was after.
-									</p>
-								</div>
-							</div>
-							<div class="testimonial">
-								<div class="testimonial-content">
-									<span class="testimonial-author">John Willy - Developer</span>
-									<p class="testimonial-description">
-										You’re pretty awesome to work with. Incredibly organized, easy to communicate
-										with, responsive with next iterations, and beautiful work.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
+		<div class="row">
+			<section class="tm-2-col-img-text col-md-12 tm-2-col-img-lg-right">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">
+					<img src="../assets/images/tv-background.jpg" alt="Image" class="img-fluid" />
 				</div>
-			</div>
-		</section>
 
-		<section class="light-content our-team">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-header">
-							<h2 class="section-title">Meet our happy staff</h2>
-							<p class="section-desc">
-								Medigo is the automated way to keep track of what everyone is working on.
-							</p>
-						</div>
-					</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+					<h2 class="tm-2-col-text-title">Integer sed dictum lectus</h2>
+					<p class="tm-2-col-text-description">
+						Aliquam augue libero, convallis in vulputate vel, sodales sed purus. In non velit in
+						eros bibendum pretium quis eu sapien. Donec sapien risus, hendrerit ut metus dignissim,
+						pellentesque congue erat. Quisque tempor odio libero, non auctor odio suscipit eget.
+					</p>
+					<a href="#" class="tm-bordered-btn">Read More</a>
 				</div>
-			</div>
-			<!-- /.container -->
-			<div class="team-members">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-sm-4">
-							<div class="team-member">
-								<div class="thumb-post">
-									<img src="images/includes/member1.jpg" alt="" />
-									<span class="member-role">Marketing Manager</span>
-								</div>
-								<div class="member-content">
-									<h4 class="member-name">Amy Groovy</h4>
-									<p>Duis vitae consequat neque. Nulla pharetra eleifend nulla.</p>
-								</div>
-							</div>
-						</div>
-						<!-- /.col-md-4 -->
+			</section>
+		</div>
 
-						<div class="col-md-4 col-sm-4">
-							<div class="team-member">
-								<div class="thumb-post">
-									<img src="images/includes/member2.jpg" alt="" />
-									<span class="member-role">Web Developer</span>
-								</div>
-								<div class="member-content">
-									<h4 class="member-name">Candy Sharp</h4>
-									<p>Duis vitae consequat neque. Nulla pharetra eleifend nulla.</p>
-								</div>
-							</div>
-							<!-- /.team-member -->
-						</div>
-						<!-- /.col-md-4 -->
+		<!-- row -->
 
-						<div class="col-md-4 col-sm-4">
-							<div class="team-member">
-								<div class="thumb-post">
-									<img src="images/includes/member3.jpg" alt="" />
-									<span class="member-role">Graphic Designer</span>
-								</div>
-								<div class="member-content">
-									<h4 class="member-name">Linda Master</h4>
-									<p>Duis vitae consequat neque. Nulla pharetra eleifend nulla.</p>
-								</div>
-							</div>
-							<!-- /.team-member -->
-						</div>
-						<!-- /.col-md-4 -->
-					</div>
-					<!-- /.row -->
+		<div class="row">
+			<section class="tm-2-col-img-text tm-2-col-img-lg-left">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">
+					<img src="../assets/images/97.jpg" alt="Image" class="img-fluid" />
 				</div>
-				<!-- /.container -->
-			</div>
-			<!-- /.team-members -->
-		</section>
-		<!-- /.our-team -->
 
-		<section id="blogPosts" class="parallax">
-			<div class="parallax-overlay">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-header">
-								<h2 class="section-title">Recent from our blog</h2>
-								<p class="section-desc">Everything you need to create a professional website.</p>
-							</div>
-							<!-- /.section-header -->
-						</div>
-						<!-- /.col-md-12 -->
-					</div>
-					<!-- /.row -->
-					<div class="row latest-posts">
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-post clearfix">
-								<div class="thumb-post">
-									<a href="blog-single.html"
-										><img src="images/includes/blogthumb1.jpg" alt="" class="img-circle"
-									/></a>
-								</div>
-								<div class="blog-post-content">
-									<h4 class="post-title">
-										<a href="blog-single.html">Getting Creative With the Google Maps API</a>
-									</h4>
-									<span class="meta-post-date">12 February 2084</span>
-								</div>
-							</div>
-							<!-- /.blog-post -->
-						</div>
-						<!-- /.col-md-4 -->
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-post clearfix">
-								<div class="thumb-post">
-									<a href="blog-single.html"
-										><img src="images/includes/blogthumb2.jpg" alt="" class="img-circle"
-									/></a>
-								</div>
-								<div class="blog-post-content">
-									<h4 class="post-title">
-										<a href="blog-single.html">Design Deliverables – easily share project</a>
-									</h4>
-									<span class="meta-post-date">10 February 2084</span>
-								</div>
-							</div>
-							<!-- /.blog-post -->
-						</div>
-						<!-- /.col-md-4 -->
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-post clearfix">
-								<div class="thumb-post">
-									<a href="blog-single.html"
-										><img src="images/includes/blogthumb3.jpg" alt="" class="img-circle"
-									/></a>
-								</div>
-								<div class="blog-post-content">
-									<h4 class="post-title">
-										<a href="blog-single.html">Using Templates to Get Your Clients Thinking</a>
-									</h4>
-									<span class="meta-post-date">8 February 2084</span>
-								</div>
-							</div>
-							<!-- /.blog-post -->
-						</div>
-						<!-- /.col-md-4 -->
-					</div>
-					<!-- /.row -->
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+					<h2 class="tm-2-col-text-title">Integer sed dictum lectus</h2>
+					<p class="tm-2-col-text-description">
+						Aliquam augue libero, convallis in vulputate vel, sodales sed purus. In non velit in
+						eros bibendum pretium quis eu sapien. Donec sapien risus, hendrerit ut metus dignissim,
+						pellentesque congue erat. Quisque tempor odio libero, non auctor odio suscipit eget.
+					</p>
+					<a href="#" class="tm-bordered-btn">Read More</a>
 				</div>
-				<!-- /.container -->
-			</div>
-			<!-- /.parallax-overlay -->
-		</section>
-		<!-- /#blogPosts -->
-
-		<!-- /.site-footer -->
+			</section>
+		</div>
+		<!-- row -->
 	</div>
 </template>
 
 <script>
+// import custom from './custom.js';
+
 export default {};
 </script>
 
 <style lang="scss" scoped>
-blockquote {
-	margin: 30px 0;
-	display: block;
-	color: #aaaaaa;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* start service */
+h4 {
+	padding: 15px;
+}
+#service {
+	background: #ffffff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-family: 'Quicksand', sans-serif;
+}
+#service .media {
+	padding: 10px;
+}
+#service .media .fa {
+	color: #55acee;
+	font-size: 60px;
+	margin-right: 20px;
+	width: 65px;
+	height: 65px;
+}
+#service .media .media-heading {
+	font-weight: 600;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.service-width {
+	width: 70%;
+	margin: 0 auto;
+}
+.media-body {
+	line-height: 1.8;
 }
 
-// @media (max-width: 767px) {
-// 	.parallax {
-// 		background-position: center center !important;
-// 	}
-// 	.parallax-text {
-// 		width: 100%;
-// 	}
-// 	.cta .cta-title {
-// 		display: block;
-// 		margin-bottom: 30px;
-// 	}
+.far {
+	color: gold;
+}
 
-// 	.pageTitle {
-// 		text-align: center;
-// 	}
-// 	.pageTitle .text-right {
-// 		text-align: center;
-// 	}
-// }
+.fas,
+.fa-keyboard {
+	font-size: 2em;
+	color: white;
+	margin: 10px;
+	padding: 15px;
+	background-color: #2980b9;
+	border-radius: 50%;
+}
+hr.line {
+	width: 50px;
+	margin: 0 auto;
+	border: 2px solid #2980b9;
+}
+
+.bounceIn {
+	transition: 0.4s ease-in-out;
+}
+/* 3. Image and text 2 column block
+-------------------------------------*/
+
+.tm-2-col-img-text {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: auto;
+}
+
+.tm-2-col-img {
+	padding: 0;
+	// border: 1px solid gray;
+	margin: 0 auto;
+}
+
+.img-fluid {
+	height: auto;
+}
+
+.tm-2-col-img-lg-right .tm-2-col-img {
+	-webkit-order: 2;
+	-ms-flex-order: 2;
+	order: 2;
+}
+
+.tm-2-col-img-lg-right .tm-2-col-text {
+	-webkit-order: 1;
+	-ms-flex-order: 1;
+	order: 1;
+}
+
+.tm-2-col-text {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.tm-2-col-text-title {
+	color: #2980b9;
+	font-size: 1.9rem;
+	font-weight: 300;
+	margin-bottom: 5%;
+}
+
+.tm-2-col-text-description {
+	color: #2980b9;
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.9;
+	margin-bottom: 6%;
+	width: 100%;
+}
+
+.tm-bordered-btn {
+	background-color: transparent;
+	border: 2px solid #2980b9;
+	text-decoration: none;
+	border-radius: 2.5rem;
+	color: #81b4eb;
+	display: inline-block;
+	font-size: 1.5rem;
+	font-weight: 400;
+	padding: 0.6rem 2rem;
+}
+
+.tm-bordered-btn:hover,
+.tm-bordered-btn:focus {
+	color: white;
+	background-color: #81b4eb;
+}
+
+/* 3. Image and text 2 column block
+----------------------------------------*/
+@media (max-width: 1600px) {
+	.tm-2-col-text {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media (max-width: 1320px) {
+	.tm-2-col-text {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	.tm-2-col-text-description {
+		font-size: 1.1rem;
+		line-height: 1.6;
+		margin-bottom: 4%;
+	}
+
+	.tm-bordered-btn {
+		font-size: 1.2rem;
+		padding: 0.5rem 2rem;
+	}
+}
 </style>
